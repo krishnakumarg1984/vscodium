@@ -4,7 +4,7 @@ mkdir -p vscode
 cd vscode
 
 git init -q
-git remote add origin https://github.com/Microsoft/vscode.git
+git remote add origin https://github.com/krishnakumarg1984/vscode.git
 
 # figure out latest tag by calling MS update API
 if [ "$INSIDER" == "1" ]; then
